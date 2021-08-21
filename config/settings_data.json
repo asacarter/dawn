@@ -1,6 +1,6 @@
 {
   "current": {
-    "announcement_bar_position": "above",
+    "announcement_bar_position": "below",
     "color_announcement_background": "#c7a2a2",
     "color_announcement_text": "#351212",
     "colors_solid_button_labels": "#FFFFFF",
