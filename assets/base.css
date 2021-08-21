@@ -1772,10 +1772,18 @@ input[type='checkbox'] {
   padding: 0;
 }
 .announcement-bar__heading{
-  display: block;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .2em;
+}
+.announcement-bar__text{
+  margin-left: 5px;
+}
+.announcement-bar-compact .announcement-bar__heading{
+  display:block;
+}
+.announcement-bar-compact .announcement-bar__text{
+  margin-left: 0;
 }
   
 /* section-header */
