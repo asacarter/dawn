@@ -1696,13 +1696,15 @@ input[type='checkbox'] {
 }
 
 .announcement-bar {
+  text-align: center;
+  background-color: var(--color-announcement-background);
+  color: var(--color-announcement-text);
+}
+.announcement-slider {
   position: relative;
   margin: 0;
   padding: 0;
   list-style: none;
-  text-align: center;
-  background-color: var(--color-announcement-background);
-  color: var(--color-announcement-text);
 }
 
 .announcement-bar__announcement {
