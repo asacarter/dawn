@@ -1727,6 +1727,14 @@ input[type='checkbox'] {
 .announcement-bar__link .announcement-bar__heading {
   padding: 0;
 }
+  
+  .slick-track {
+    position: relative;
+    left: 0;
+    top: 0;
+    line-height: 1;
+    display: block;
+}
 
 
 
