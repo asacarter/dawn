@@ -1757,6 +1757,10 @@ input[type='checkbox'] {
     line-height: 1;
     display: block;
   }
+  .slick-track:after, .slick-track:before {
+    content: "";
+    display: table;
+  }
 
 
 
