@@ -1,6 +1,13 @@
+{%- liquid
+assign compact = ''
+if section.settings.show_announcement_bar
+  assign compact = ' announcement-bar-compact'
+endif
+-%}
+{%- assign compact = '' -%}
 {%- if section.settings.show_announcement_bar -%}
   {%- if section.blocks.size > 0 -%}
-    <div class="announcement-bar">
+    <div class="announcement-bar{{ compact}}">
       <div class="page-width">
         <ul class="announcement-slider">
           {%- for block in section.blocks -%}
