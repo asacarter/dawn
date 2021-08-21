@@ -1701,8 +1701,8 @@ input[type='checkbox'] {
   padding: 10px 0;
   list-style: none;
   text-align: center;
-  background-color: var(--colorAnnouncementText);
-  color: var(--color-foreground);
+  background-color: var(--color-announcement-background);
+  color: var(--color-announcement-text);
 }
 
 .announcement-bar__announcement {
