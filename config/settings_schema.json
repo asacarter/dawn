@@ -11,15 +11,15 @@
     "name": "Header",
     "settings": [
       {
-        "type": "header",
-        "content": "t:settings_schema.colors.settings.header__1.content"
-      },
-      {
         "type": "checkbox",
         "id": "enable_sticky_header",
         "default": true,
         "label": "t:sections.header.settings.enable_sticky_header.label",
         "info": "t:sections.header.settings.enable_sticky_header.info"
+      },
+      {
+        "type": "header",
+        "content": "Announcement Bar"
       },
       {
         "type": "select",
