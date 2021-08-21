@@ -1,6 +1,6 @@
 {%- if section.settings.show_announcement_bar -%}
   {%- if section.blocks.size > 0 -%}
-    <div class="announcement-bar{%- if section.settings.announcement_compact -%}  announcement-bar-compact{%- endif -%}">
+    <div class="announcement-bar{% if section.settings.announcement_compact %} announcement-bar-compact{% endif %}">
       <div class="page-width">
         <ul class="announcement-slider">
           {%- for block in section.blocks -%}
