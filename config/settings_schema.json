@@ -8,7 +8,7 @@
     "theme_support_url": "https:\/\/support.shopify.com\/"
   },
   {
-    "name": "Announcement bar",
+    "name": "Header",
     "settings": [
       {
         "type": "header",
@@ -20,6 +20,22 @@
         "default": true,
         "label": "t:sections.header.settings.enable_sticky_header.label",
         "info": "t:sections.header.settings.enable_sticky_header.info"
+      },
+      {
+        "type": "select",
+        "id": "announcement_bar_position",
+        "options": [
+          {
+            "value": "above",
+            "label": "Above header"
+          },
+          {
+            "value": "below",
+            "label": "Below Header"
+          }
+        ],
+        "default": "below",
+        "label": "Announcement bar position"
       }
     ]
   },
