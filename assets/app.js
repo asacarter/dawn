@@ -1,11 +1,10 @@
 $(function() {
   $('.announcement-slider').slick({
     infinite: true,
-    arrows: false,
     speed: 300,
     slidesToShow: 1,
     adaptiveHeight: true,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 7000
   });
   
@@ -14,11 +13,10 @@ $(function() {
     
     $('.announcement-slider').slick({
       infinite: true,
-      arrows: false,
       speed: 300,
       slidesToShow: 1,
       adaptiveHeight: true,
-      autoplay: false,
+      autoplay: true,
       autoplaySpeed: 7000
     });
   });
