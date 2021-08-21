@@ -1769,8 +1769,15 @@ input[type='checkbox'] {
 .announcement-bar__link .announcement-bar__heading {
   padding: 0;
 }
-
-
+.announcement-bar__heading{
+  display: block;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  font-size: .85em;
+  line-height: 1.4;
+}
+  
 /* section-header */
 #shopify-section-header {
   z-index: 3;
