@@ -1770,6 +1770,13 @@ input[type='checkbox'] {
   .slick-initialized .slick-slide {
     display: block;
   }
+  
+  .announcement-bar__announcement {
+    display: none;
+    position: relative;
+    overflow: hidden;
+    padding: 0 5px;
+  }
   .announcement-bar__announcement:first-child {
     display: block;
   }
