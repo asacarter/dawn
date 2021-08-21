@@ -117,14 +117,15 @@
       {{ "accessibility.skip_to_text" | t }}
     </a>
 
-    {% if settings.header.announcement_bar_position == 'above' %}
-      {% section 'announcement-bar' %}
-    {% endif %}
-    {% section 'header' %}
-    {% if settings.header.announcement_bar_position == 'below' %}
-      {% section 'announcement-bar' %}
-    {% endif %}
-    
+    <div id="page-header">
+      {% if settings.header.announcement_bar_position == 'above' %}
+        {% section 'announcement-bar' %}
+      {% endif %}
+      {% section 'header' %}
+      {% if settings.header.announcement_bar_position == 'below' %}
+        {% section 'announcement-bar' %}
+      {% endif %}
+    </div>
 
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
