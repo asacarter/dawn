@@ -1,25 +1,29 @@
 {%- if section.settings.show_announcement_bar -%}
   {%- if section.blocks.size > 0 -%}
-    <ul class="announcement-bar">
-      {%- for block in section.blocks -%}
-        <li class="announcement-bar__announcement" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
-          {%- if block.settings.link != blank -%}
-          <a href="{{ block.settings.link }}" class="announcement-bar__link">
-            {%- endif -%}
-            <span class="announcement-bar__heading">
-              {{ block.settings.heading | escape }}
-            </span>
-            {%- if block.settings.text != blank -%}
-            <span class="announcement-bar__text">
-              {{ block.settings.text | escape }}
-            </span>
-            {%- endif -%}
-            {%- if block.settings.link != blank -%}
-          </a>
-          {%- endif -%}
-        </li>
-      {%- endfor -%}
-    </ul>
+    <div class="announcement-bar">
+      <div class="page-width">
+        <ul class="annouincement-slider">
+          {%- for block in section.blocks -%}
+            <li class="announcement-bar__announcement" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
+              {%- if block.settings.link != blank -%}
+                <a href="{{ block.settings.link }}" class="announcement-bar__link">
+                  {%- endif -%}
+                  <span class="announcement-bar__heading">
+                    {{ block.settings.heading | escape }}
+                  </span>
+                  {%- if block.settings.text != blank -%}
+                  <span class="announcement-bar__text">
+                    {{ block.settings.text | escape }}
+                  </span>
+                  {%- endif -%}
+                  {%- if block.settings.link != blank -%}
+                </a>
+              {%- endif -%}
+         	</li>
+      	  {%- endfor -%}
+        </ul>
+      </div>
+    </div>
   {%- endif -%}
 {%- endif -%}
 
