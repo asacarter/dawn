@@ -104,7 +104,8 @@
     {%- endunless -%}
 
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
-  </head>
+  {% render 'opinew_head' %}
+</head>
 
   <body>
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
@@ -146,5 +147,6 @@
         shareSuccess: `{{ 'general.share.success_message' | t }}`,
       }
     </script>
-  </body>
+  {% render 'banana-stand-footer' %}
+</body>
 </html>
