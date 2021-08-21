@@ -1754,8 +1754,10 @@ input[type='checkbox'] {
   overflow: hidden;
   margin: 0;
   padding: 1.4rem;
+  font-size: .85em;
   text-align: center;
   letter-spacing: 0.1rem;
+  line-height: 1.4;
 }
 .announcement-bar__announcement:first-child {
   display: block;
@@ -1765,8 +1767,6 @@ input[type='checkbox'] {
   width: 100%;
   text-decoration: none;
   color: var(--color-announcement-text);
-  font-size: .85em;
-  line-height: 1.4;
 }
 .announcement-bar__link .announcement-bar__heading {
   padding: 0;
