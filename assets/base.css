@@ -1765,6 +1765,8 @@ input[type='checkbox'] {
   width: 100%;
   text-decoration: none;
   color: var(--color-announcement-text);
+  font-size: .85em;
+  line-height: 1.4;
 }
 .announcement-bar__link .announcement-bar__heading {
   padding: 0;
@@ -1774,8 +1776,6 @@ input[type='checkbox'] {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .2em;
-  font-size: .85em;
-  line-height: 1.4;
 }
   
 /* section-header */
