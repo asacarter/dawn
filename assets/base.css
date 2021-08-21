@@ -1765,15 +1765,9 @@ input[type='checkbox'] {
 .announcement-bar__link .announcement-bar__heading {
   padding: 0;
 }
-  
-
-  
-  
-  
-  
-  .announcement-bar__announcement:first-child {
-    display: block;
-  }
+.announcement-bar__announcement:first-child {
+  display: block;
+}
 
 
 /* section-header */
