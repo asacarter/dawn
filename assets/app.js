@@ -1,5 +1,5 @@
 $(function() {
-  $('.announcement-bar').slick({
+  $('.announcement-slider').slick({
     infinite: true,
     arrows: false,
     speed: 300,
