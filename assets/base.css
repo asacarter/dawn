@@ -1706,9 +1706,12 @@ input[type='checkbox'] {
 }
 
 .announcement-bar__announcement {
-  text-align: center;
-  padding: 1rem;
+  display: none;
+  position: relative;
+  overflow: hidden;
   margin: 0;
+  padding: 1rem;
+  text-align: center;
   letter-spacing: 0.1rem;
 }
 
@@ -1770,12 +1773,7 @@ input[type='checkbox'] {
     display: block;
   }
   
-  .announcement-bar__announcement {
-    display: none;
-    position: relative;
-    overflow: hidden;
-    padding: 0 5px;
-  }
+  
   .announcement-bar__announcement:first-child {
     display: block;
   }
