@@ -1753,7 +1753,7 @@ input[type='checkbox'] {
   position: relative;
   overflow: hidden;
   margin: 0;
-  padding: 1rem;
+  padding: 1.4rem;
   text-align: center;
   letter-spacing: 0.1rem;
 }
