@@ -420,7 +420,7 @@
     </modal-dialog>
   {%- endfor -%}
 </section>
-
+<div class='span12'><div id='judgeme_product_reviews' data-product-title='{{ product.title | escape }}' data-id='{{product.id}}'>{{ shop.metafields.judgeme.settings }}{{ product.metafields.judgeme.widget }}</div></div>
 {% javascript %}
   class ProductModal extends ModalDialog {
     constructor() {
