@@ -1730,7 +1730,7 @@ input[type='checkbox'] {
   
 
   
- .slick-slider {
+  .slick-slider {
     display: block;
     box-sizing: border-box;
     -webkit-touch-callout: none;
@@ -1739,14 +1739,21 @@ input[type='checkbox'] {
     touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
     direction: ltr;
- } 
+  }
+  .slick-list {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
   .slick-track {
     position: relative;
     left: 0;
     top: 0;
     line-height: 1;
     display: block;
-}
+  }
 
 
 
