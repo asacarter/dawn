@@ -1728,6 +1728,18 @@ input[type='checkbox'] {
   padding: 0;
 }
   
+
+  
+ .slick-slider {
+    display: block;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+    direction: ltr;
+ } 
   .slick-track {
     position: relative;
     left: 0;
