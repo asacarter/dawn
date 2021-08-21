@@ -5,6 +5,9 @@ if section.settings.announcement_compact == true
 endif
 -%}
 
+{%- if section.settings.announcement_compact == true -%}
+ {%- assign compact = ' announcement-bar-compact' -%}
+{%- endif -%}
 
 {{ section.settings.announcement_compact }}
 {%- assign compact = '' -%}
