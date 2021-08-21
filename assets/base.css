@@ -1698,7 +1698,7 @@ input[type='checkbox'] {
 .announcement-bar {
   position: relative;
   margin: 0;
-  padding: 10px 0;
+  padding: 0;
   list-style: none;
   text-align: center;
   background-color: var(--color-announcement-background);
@@ -1707,7 +1707,7 @@ input[type='checkbox'] {
 
 .announcement-bar__announcement {
   text-align: center;
-  padding: 1rem 2rem;
+  padding: 1rem;
   margin: 0;
   letter-spacing: 0.1rem;
 }
