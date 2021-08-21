@@ -44,6 +44,28 @@
     "settings": [
       {
         "type": "header",
+        "content": "Header"
+      },
+      {
+        "type": "color",
+        "id": "color_header_background",
+        "default": "#FFFFFF",
+        "label": "Background"
+      },
+      {
+        "type": "color",
+        "id": "color_announcement_background",
+        "default": "#121212",
+        "label": "Announcement background"
+      },
+      {
+        "type": "color",
+        "id": "color_announcement_text",
+        "default": "#121212",
+        "label": "Announcement text"
+      },
+      {
+        "type": "header",
         "content": "t:settings_schema.colors.settings.header__1.content"
       },
       {
