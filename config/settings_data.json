@@ -1,5 +1,6 @@
 {
   "current": {
+    "announcement_bar_position": "above",
     "colors_solid_button_labels": "#FFFFFF",
     "colors_accent_1": "#121212",
     "colors_accent_2": "#334FB4",
@@ -44,8 +45,7 @@
           "logo_width": 110,
           "logo_position": "middle-left",
           "menu": "main-menu",
-          "show_line_separator": true,
-          "enable_sticky_header": true
+          "show_line_separator": true
         }
       },
       "footer": {
