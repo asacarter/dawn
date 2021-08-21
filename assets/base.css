@@ -1703,6 +1703,13 @@ input[type='checkbox'] {
   color: rgb(var(--color-foreground));
 }
 
+.announcement-bar__announcement {
+  text-align: center;
+  padding: 1rem 2rem;
+  margin: 0;
+  letter-spacing: 0.1rem;
+}
+
 .announcement-bar__link {
   display: block;
   width: 100%;
@@ -1719,12 +1726,7 @@ input[type='checkbox'] {
   padding: 0;
 }
 
-.announcement-bar__message {
-  text-align: center;
-  padding: 1rem 2rem;
-  margin: 0;
-  letter-spacing: 0.1rem;
-}
+
 
 /* section-header */
 #shopify-section-header {
