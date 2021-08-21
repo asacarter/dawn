@@ -1715,7 +1715,7 @@ input[type='checkbox'] {
   background-color: rgba(var(--color-card-hover), 0.06);
 }
 
-.announcement-bar__link .announcement-bar__message {
+.announcement-bar__link .announcement-bar__heading {
   padding: 0;
 }
 
