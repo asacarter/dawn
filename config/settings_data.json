@@ -17,16 +17,16 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
+              "heading": "Free shipping",
               "text": "Welcome to our store",
-              "color_scheme": "background-1",
               "link": ""
             }
           },
           "745d3633-1a49-4bf4-a6d6-6a17b43c6a7f": {
             "type": "announcement",
             "settings": {
+              "heading": "sdfsfsf",
               "text": "Welcome to our store",
-              "color_scheme": "accent-2",
               "link": "shopify:\/\/blogs\/dfgdfgfd\/sdfdf-sdf-daf-d-daf"
             }
           }
@@ -36,6 +36,8 @@
           "745d3633-1a49-4bf4-a6d6-6a17b43c6a7f"
         ],
         "settings": {
+          "show_announcement_bar": true,
+          "announcement_compact": false
         }
       },
       "header": {
