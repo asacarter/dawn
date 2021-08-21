@@ -57,7 +57,7 @@
         ],
         "settings": {
           "show_announcement_bar": true,
-          "announcement_compact": false
+          "announcement_compact": true
         }
       },
       "header": {
