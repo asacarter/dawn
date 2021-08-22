@@ -1798,7 +1798,14 @@ input[type='checkbox'] {
   padding:0;
   cursor:pointer;
 }
-  
+.svg-icon{
+  display: block;
+  height: 2rem;
+  width: 2rem;
+  max-height: 100%;
+  max-width: 100%;
+  margin: auto;
+}
   
 /* section-header */
 #shopify-section-header {
