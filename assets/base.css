@@ -1798,10 +1798,10 @@ input[type='checkbox'] {
   padding:0;
   cursor:pointer;
 }
-.announcement-slider.slick-arrow .svg-icon{
+.announcement-slider .slick-arrow .svg-icon{
   display:none;
 }
-.announcement-slider-has-arrows.slick-arrow .svg-icon {
+.announcement-slider-has-arrows .slick-arrow .svg-icon {
   display:block;
 }
 .svg-icon {
