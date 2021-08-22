@@ -1,6 +1,6 @@
 {%- if section.settings.show_announcement_bar -%}
   {%- if section.blocks.size > 0 -%}
-    <div class="announcement-bar">
+    <div class="announcement-bar{% if section.settings.show_line_separator %} announcement-bar-has-separator{% endif %}">
       <div class="page-width">
         <ul class="announcement-slider{% if section.settings.show_arrows %} announcement-slider-has-arrows{% endif %}{% if section.settings.announcement_compact %} announcement-slider-compact{% endif %}">
           {%- for block in section.blocks -%}
