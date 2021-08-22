@@ -1782,15 +1782,15 @@ input[type='checkbox'] {
   margin-left: 5px;
 }
 @media screen and (max-width: 750px) {
-  .announcement-bar-compact .announcement-bar__heading{
+  .announcement-bar-compact .announcement-bar__heading {
     display:block;
   }
-  .announcement-bar-compact .announcement-bar__text{
+  .announcement-bar-compact .announcement-bar__text {
     margin-left: 0;
   }
 }
   
-.announcement-bar .slick-arrow{
+.announcement-bar .slick-arrow {
   border:none;
   background:transparent;
   appearance: none;
@@ -1798,7 +1798,7 @@ input[type='checkbox'] {
   padding:0;
   cursor:pointer;
 }
-.svg-icon{
+.svg-icon {
   display: block;
   height: 2rem;
   width: 2rem;
