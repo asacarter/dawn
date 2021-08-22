@@ -1769,16 +1769,16 @@ input[type='checkbox'] {
   text-decoration: none;
   color: var(--color-announcement-text);
 }
-.announcement-bar__heading{
+.announcement-bar__heading {
   display:block;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .2em;
 }
-.announcement-bar-compact .announcement-bar__heading{
+.announcement-slider-compact .announcement-bar__heading {
   display:inline-block;
 }
-.announcement-bar-compact .announcement-bar__text{
+.announcement-bar-compact .announcement-bar__text {
   margin-left: 5px;
 }
 @media screen and (max-width: 750px) {
