@@ -1791,7 +1791,6 @@ input[type='checkbox'] {
 }
 
 .announcement-slider .slick-arrow {
-  display:none;
   border:none;
   background:transparent;
   appearance: none;
@@ -1799,6 +1798,7 @@ input[type='checkbox'] {
   padding:0;
   cursor:pointer;
 }
+.announcement-slider-has-arrows.slick-arrow
 .announcement-slider-has-arrows.slick-arrow .svg-icon {
   display:block;
 }
