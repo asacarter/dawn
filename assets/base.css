@@ -1806,7 +1806,7 @@ input[type='checkbox'] {
   max-width: 100%;
   margin: auto;
 }
-svg-icon.invert svg {
+.svg-icon.invert svg {
   transform: rotate(180deg);
 }
   
