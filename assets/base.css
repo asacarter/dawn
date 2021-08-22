@@ -1768,9 +1768,6 @@ input[type='checkbox'] {
   text-decoration: none;
   color: var(--color-announcement-text);
 }
-.announcement-bar__link .announcement-bar__heading {
-  padding: 0;
-}
 .announcement-bar__heading{
   display:block;
   font-weight: 700;
@@ -1782,6 +1779,14 @@ input[type='checkbox'] {
 }
 .announcement-bar-compact .announcement-bar__text{
   margin-left: 5px;
+}
+@media screen and (max-width: 750px) {
+  .announcement-bar-compact .announcement-bar__heading{
+    display:block;
+  }
+  .announcement-bar-compact .announcement-bar__text{
+    margin-left: 0;
+  }
 }
   
 /* section-header */
