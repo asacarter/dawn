@@ -1778,25 +1778,29 @@ input[type='checkbox'] {
 .announcement-slider-compact .announcement-bar__heading {
   display:inline-block;
 }
-.announcement-bar-compact .announcement-bar__text {
+.announcement-slider-compact .announcement-bar__text {
   margin-left: 5px;
 }
 @media screen and (max-width: 750px) {
-  .announcement-bar-compact .announcement-bar__heading {
+  .announcement-slider-compact .announcement-bar__heading {
     display:block;
   }
-  .announcement-bar-compact .announcement-bar__text {
+  .announcement-slider-compact .announcement-bar__text {
     margin-left: 0;
   }
 }
-  
-.announcement-bar .slick-arrow {
+
+.announcement-slider .slick-arrow {
+  display:none;
   border:none;
   background:transparent;
   appearance: none;
   margin:0;
   padding:0;
   cursor:pointer;
+}
+.announcement-slider-has-arrows.slick-arrow {
+  display:block;
 }
 .svg-icon {
   display: block;
