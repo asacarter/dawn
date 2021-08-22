@@ -23,10 +23,19 @@
               "text": "Welcome to our store",
               "link": "shopify:\/\/blogs\/dfgdfgfd\/sdfdf-sdf-daf-d-daf"
             }
+          },
+          "bf7ff889-5dae-45a9-9b8c-48eec504f4da": {
+            "type": "announcement",
+            "settings": {
+              "heading": "Free shipping",
+              "text": "On all orders over $30",
+              "link": ""
+            }
           }
         },
         "block_order": [
-          "745d3633-1a49-4bf4-a6d6-6a17b43c6a7f"
+          "745d3633-1a49-4bf4-a6d6-6a17b43c6a7f",
+          "bf7ff889-5dae-45a9-9b8c-48eec504f4da"
         ],
         "settings": {
           "show_announcement_bar": true,
