@@ -49,7 +49,8 @@
         "settings": {
           "show_announcement_bar": true,
           "announcement_compact": false,
-          "show_arrows": true
+          "show_arrows": true,
+          "show_line_separator": true
         }
       },
       "header": {
@@ -59,7 +60,7 @@
           "logo_width": 180,
           "logo_position": "top-center",
           "menu": "main-menu",
-          "show_line_separator": true
+          "show_line_separator": false
         }
       },
       "footer": {
