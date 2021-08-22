@@ -1742,6 +1742,9 @@ input[type='checkbox'] {
   background-color: var(--color-announcement-background);
   color: var(--color-announcement-text);
 }
+.announcement-bar-has-separator {
+  border-bottom: .1rem solid rgba(var(--color-foreground),.2);
+}
 .announcement-slider {
   display: flex;
   justify-content: center;
