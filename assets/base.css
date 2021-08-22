@@ -1743,6 +1743,7 @@ input[type='checkbox'] {
   color: var(--color-announcement-text);
 }
 .announcement-slider {
+  display: flex;
   position: relative;
   margin: 0;
   padding: 0;
