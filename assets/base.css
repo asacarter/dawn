@@ -1805,7 +1805,6 @@ input[type='checkbox'] {
   display:block;
 }
 .svg-icon {
-  display: block;
   height: 2rem;
   width: 2rem;
   max-height: 100%;
