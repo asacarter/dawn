@@ -31,11 +31,20 @@
               "text": "On all orders over $30",
               "link": "shopify:\/\/blogs\/dfgdfgfd\/test2"
             }
+          },
+          "3f6256d6-a9af-4514-9f33-6d734da148a1": {
+            "type": "announcement",
+            "settings": {
+              "heading": "Next day delivery",
+              "text": "When you order before 1pm",
+              "link": ""
+            }
           }
         },
         "block_order": [
           "745d3633-1a49-4bf4-a6d6-6a17b43c6a7f",
-          "00b2ed70-9286-47f8-a278-845f0843372f"
+          "00b2ed70-9286-47f8-a278-845f0843372f",
+          "3f6256d6-a9af-4514-9f33-6d734da148a1"
         ],
         "settings": {
           "show_announcement_bar": true,
