@@ -1806,7 +1806,12 @@ input[type='checkbox'] {
   max-width: 100%;
   margin: auto;
 }
+svg-icon.invert svg {
+  transform: rotate(180deg);
+}
   
+  
+
 /* section-header */
 #shopify-section-header {
   z-index: 3;
