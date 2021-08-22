@@ -24,22 +24,22 @@
               "link": "shopify:\/\/blogs\/dfgdfgfd\/sdfdf-sdf-daf-d-daf"
             }
           },
-          "bf7ff889-5dae-45a9-9b8c-48eec504f4da": {
+          "00b2ed70-9286-47f8-a278-845f0843372f": {
             "type": "announcement",
             "settings": {
               "heading": "Free shipping",
               "text": "On all orders over $30",
-              "link": ""
+              "link": "shopify:\/\/blogs\/dfgdfgfd\/test2"
             }
           }
         },
         "block_order": [
           "745d3633-1a49-4bf4-a6d6-6a17b43c6a7f",
-          "bf7ff889-5dae-45a9-9b8c-48eec504f4da"
+          "00b2ed70-9286-47f8-a278-845f0843372f"
         ],
         "settings": {
           "show_announcement_bar": true,
-          "announcement_compact": true,
+          "announcement_compact": false,
           "show_arrows": true
         }
       },
