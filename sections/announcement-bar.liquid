@@ -2,7 +2,7 @@
   {%- if section.blocks.size > 0 -%}
     <div class="announcement-bar">
       <div class="page-width">
-        <ul class="announcement-slider{% if section.settings.announcement_compact %} announcement-slider-has-arrows{% endif %}{% if section.settings.announcement_compact %} announcement-slider-compact{% endif %}">
+        <ul class="announcement-slider{% if section.settings.show_arrows %} announcement-slider-has-arrows{% endif %}{% if section.settings.announcement_compact %} announcement-slider-compact{% endif %}">
           {%- for block in section.blocks -%}
             <li class="announcement-bar__announcement" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
               {%- if block.settings.link != blank -%}
