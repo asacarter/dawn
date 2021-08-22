@@ -11,8 +11,6 @@ $(function() {
   });
   
   document.addEventListener("shopify:section:load", function(event) {
-    console.log(1)
-    
     $('.announcement-slider').slick({
       infinite: true,
       speed: 300,
